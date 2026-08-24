@@ -1,0 +1,12 @@
+uid: UR-0002
+type: user_requirement
+status: approved
+title: Source File Structure
+text: >-
+  Rules governing the order of a file's contents, its package and import statements and
+  its top-level class.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Java Style Guide: Source File Structure"

@@ -1,0 +1,12 @@
+uid: SR-0025
+type: system_requirement
+status: approved
+title: Do not require horizontal alignment
+text: >-
+  Horizontal alignment of tokens across lines is permitted but never required; do not
+  reformat unaffected lines merely to maintain alignment.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Whitespace and Wrapping — Horizontal Alignment"

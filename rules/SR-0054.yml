@@ -1,0 +1,13 @@
+uid: SR-0054
+type: system_requirement
+status: approved
+title: Document every visible class and member with the stated exceptions
+text: >-
+  Provide Javadoc for every public class and every public or protected member and record
+  component, except for a self-explanatory member such as a simple getter, or a method
+  that merely overrides a documented supertype method.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Javadoc — Where Used"

@@ -1,0 +1,12 @@
+uid: SR-0037
+type: system_requirement
+status: approved
+title: Name packages in lowercase with no underscores
+text: >-
+  Name packages and modules using only lowercase letters and digits, with consecutive
+  words concatenated directly and no underscores.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Naming — Package Names"

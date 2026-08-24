@@ -1,0 +1,11 @@
+uid: SR-0019
+type: system_requirement
+status: approved
+title: Follow each statement with a line break
+text: >-
+  Follow each statement with a line break, so there is at most one statement per line.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Braces and Blocks — One Statement Per Line"

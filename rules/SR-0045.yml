@@ -1,0 +1,14 @@
+uid: SR-0045
+type: system_requirement
+status: approved
+title: Derive camel case by the defined algorithm
+text: >-
+  Derive a camel-case name deterministically: convert the phrase to plain ASCII and drop
+  apostrophes, split it into words on spaces and punctuation, lowercase everything
+  including acronyms, uppercase the first letter of each word (or of each word but the
+  first for lower camel case), then join the words.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Naming — Camel Case"

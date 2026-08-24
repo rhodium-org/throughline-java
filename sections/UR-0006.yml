@@ -1,0 +1,11 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: Naming
+text: >-
+  Rules governing the characters, casing and choice of identifiers by kind.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Java Style Guide: Naming"

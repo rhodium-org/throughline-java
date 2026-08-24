@@ -1,0 +1,14 @@
+uid: SR-0021
+type: system_requirement
+status: approved
+title: Break lines at the highest syntactic level
+text: >-
+  When line-wrapping, prefer to break at a higher syntactic level; break before a
+  non-assignment operator (including the dot and the double-colon) and after an assignment
+  operator, keep a method name attached to its opening parenthesis, and keep a comma
+  attached to the token before it.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Whitespace and Wrapping — Where to Break"

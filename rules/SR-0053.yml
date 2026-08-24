@@ -1,0 +1,13 @@
+uid: SR-0053
+type: system_requirement
+status: approved
+title: Open Javadoc with a summary fragment
+text: >-
+  Open each Javadoc block with a brief summary fragment written as a noun or verb phrase
+  rather than a complete sentence, capitalised and punctuated as if a sentence but
+  avoiding openings like "A Foo is a..." or "This method returns...".
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Javadoc — Summary Fragment"

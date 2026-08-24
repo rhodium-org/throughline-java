@@ -1,0 +1,12 @@
+uid: SR-0017
+type: system_requirement
+status: approved
+title: Only close an empty block concisely when it stands alone
+text: >-
+  An empty block may be closed immediately after opening ({}), except when it is part of a
+  multi-block statement such as if/else or try/catch/finally.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Braces and Blocks — Empty Blocks"

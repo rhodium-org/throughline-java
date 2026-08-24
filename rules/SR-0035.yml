@@ -1,0 +1,12 @@
+uid: SR-0035
+type: system_requirement
+status: approved
+title: Use only ASCII letters, digits and permitted underscores in identifiers
+text: >-
+  Use only ASCII letters and digits in an identifier, together with an underscore only in
+  the small number of cases the guide allows.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Naming — Common Rules"

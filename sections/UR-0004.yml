@@ -1,0 +1,12 @@
+uid: UR-0004
+type: user_requirement
+status: approved
+title: Formatting — Whitespace and Wrapping
+text: >-
+  Rules governing line-wrapping, vertical and horizontal whitespace, alignment and
+  grouping parentheses.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Whitespace and Wrapping"

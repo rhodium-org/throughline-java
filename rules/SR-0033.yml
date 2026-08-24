@@ -1,0 +1,13 @@
+uid: SR-0033
+type: system_requirement
+status: approved
+title: Order modifiers as recommended by the language specification
+text: >-
+  Write class and member modifiers, when present, in the order recommended by the Java
+  Language Specification: public, protected, private, abstract, default, static, final,
+  sealed, non-sealed, transient, volatile, synchronized, native, strictfp.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Specific Constructs — Modifiers"

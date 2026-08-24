@@ -1,0 +1,13 @@
+uid: SR-0030
+type: system_requirement
+status: approved
+title: Terminate or comment every switch statement group
+text: >-
+  End each statement group in an old-style switch block abruptly with a break, continue,
+  return or thrown exception, or mark it with a comment stating that execution will or
+  might fall through into the next group.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Specific Constructs — Switch Statements"

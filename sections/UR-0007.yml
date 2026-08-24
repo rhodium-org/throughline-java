@@ -1,0 +1,11 @@
+uid: UR-0007
+type: user_requirement
+status: approved
+title: Programming Practices
+text: >-
+  Rules governing @Override, caught exceptions, static-member access and finalizers.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Java Style Guide: Programming Practices"

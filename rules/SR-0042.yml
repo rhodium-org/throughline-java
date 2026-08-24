@@ -1,0 +1,12 @@
+uid: SR-0042
+type: system_requirement
+status: approved
+title: Name parameters in lowerCamelCase and avoid one-character public names
+text: >-
+  Name parameters in lowerCamelCase, and avoid one-character parameter names in public
+  methods.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Naming — Parameter Names"

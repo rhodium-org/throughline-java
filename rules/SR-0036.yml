@@ -1,0 +1,12 @@
+uid: SR-0036
+type: system_requirement
+status: approved
+title: Do not use special prefixes or suffixes on identifiers
+text: >-
+  Do not decorate an identifier with a special prefix or suffix, such as name_, mName,
+  s_name or kName.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Naming — Special Affixes"

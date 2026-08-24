@@ -1,0 +1,12 @@
+uid: UR-0005
+type: user_requirement
+status: approved
+title: Formatting — Specific Constructs
+text: >-
+  Rules governing enums, variable and array declarations, switch statements, annotations,
+  comments, modifiers and literals.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Specific Constructs"

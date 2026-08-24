@@ -1,0 +1,12 @@
+uid: SR-0038
+type: system_requirement
+status: approved
+title: Name classes in UpperCamelCase as nouns
+text: >-
+  Name classes in UpperCamelCase, typically as nouns or noun phrases, and end a test class
+  name with Test.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Naming — Class Names"

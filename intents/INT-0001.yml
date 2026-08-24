@@ -1,0 +1,12 @@
+uid: INT-0001
+type: intent
+status: approved
+title: Java is written in one consistent, readable, maintainable style
+text: >-
+  The Google Java Style Guide exists so that Java across a large codebase reads as though
+  written by one author: consistent source structure, formatting, naming and programming
+  practices, so that any engineer can read and change code they did not write, and so that
+  mechanical style questions are settled once rather than argued in every review.
+normative: false
+attrs:
+  source_ref: "Google Java Style Guide"

@@ -1,0 +1,13 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: Keep lines within the 100-character column limit
+text: >-
+  Keep Java code within a column limit of 100 characters, except for lines that cannot
+  meet it such as long URLs in Javadoc, package and import statements, and command lines
+  in comments.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Braces and Blocks — Column Limit"

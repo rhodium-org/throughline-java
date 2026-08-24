@@ -1,0 +1,12 @@
+uid: SR-0032
+type: system_requirement
+status: approved
+title: Indent block comments with the surrounding code
+text: >-
+  Indent a block comment at the same level as the surrounding code, and align the leading
+  asterisks of a multi-line comment with each other.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Specific Constructs — Comments"

@@ -1,0 +1,12 @@
+uid: SR-0039
+type: system_requirement
+status: approved
+title: Name methods in lowerCamelCase as verbs
+text: >-
+  Name methods in lowerCamelCase, typically as verbs or verb phrases; underscores may
+  appear in JUnit test method names to separate logical components.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Naming — Method Names"

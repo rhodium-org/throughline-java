@@ -1,0 +1,13 @@
+uid: SR-0051
+type: system_requirement
+status: approved
+title: Separate Javadoc paragraphs with a p tag
+text: >-
+  Separate Javadoc paragraphs with a blank line containing only the aligned asterisk, and
+  begin each paragraph after the first with a <p> tag immediately before its first word,
+  with no space after it.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Javadoc — Paragraphs"

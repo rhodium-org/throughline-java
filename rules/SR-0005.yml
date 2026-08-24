@@ -1,0 +1,12 @@
+uid: SR-0005
+type: system_requirement
+status: approved
+title: Choose actual character or Unicode escape for readability
+text: >-
+  For a non-ASCII character use either the actual Unicode character or the equivalent
+  Unicode escape, choosing whichever makes the code easier to read and understand.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Source File Basics — Non-ASCII Characters"

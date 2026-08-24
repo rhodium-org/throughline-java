@@ -1,0 +1,11 @@
+uid: SR-0041
+type: system_requirement
+status: approved
+title: Name non-constant fields in lowerCamelCase
+text: >-
+  Name non-constant fields, whether static or not, in lowerCamelCase.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Naming — Non-Constant Field Names"

@@ -1,0 +1,11 @@
+uid: SR-0012
+type: system_requirement
+status: approved
+title: Keep exactly one top-level class per file
+text: >-
+  Place each top-level class in a source file of its own.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Source File Structure — One Top-Level Class"

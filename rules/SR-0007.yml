@@ -1,0 +1,12 @@
+uid: SR-0007
+type: system_requirement
+status: approved
+title: Give every file a non-wrapped package declaration
+text: >-
+  Give every source file a package declaration, and do not line-wrap it; the column limit
+  does not apply to the package statement.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Source File Structure — Package Declaration"

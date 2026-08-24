@@ -1,0 +1,12 @@
+uid: SR-0048
+type: system_requirement
+status: approved
+title: Qualify a static member through its class
+text: >-
+  Refer to a static member using the class name (Foo.aStaticMethod()), never through an
+  instance reference or an expression.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Programming Practices — Static Members"

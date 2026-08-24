@@ -1,0 +1,11 @@
+uid: SR-0009
+type: system_requirement
+status: approved
+title: Do not line-wrap import statements
+text: >-
+  Do not line-wrap import statements; the column limit does not apply to imports.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Source File Structure — Imports Not Line-Wrapped"

@@ -1,0 +1,12 @@
+uid: SR-0049
+type: system_requirement
+status: approved
+title: Do not override or use finalizers
+text: >-
+  Do not override Object.finalize, and do not rely on finalization, which is scheduled for
+  removal from Java.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Programming Practices — Finalizers"

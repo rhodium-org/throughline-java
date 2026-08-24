@@ -1,0 +1,12 @@
+uid: SR-0013
+type: system_requirement
+status: approved
+title: Order class contents by a logical, explicable order
+text: >-
+  Order the contents of a class by some logical order that its maintainer could explain if
+  asked; do not order members chronologically or arbitrarily.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Source File Structure — Ordering of Class Contents"

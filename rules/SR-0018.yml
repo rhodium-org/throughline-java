@@ -1,0 +1,12 @@
+uid: SR-0018
+type: system_requirement
+status: approved
+title: Indent each new block by two spaces
+text: >-
+  Increase the indent by exactly two spaces each time a new block or block-like construct
+  is opened.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Braces and Blocks — Block Indentation"

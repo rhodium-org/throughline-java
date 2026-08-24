@@ -1,0 +1,14 @@
+uid: SR-0031
+type: system_requirement
+status: approved
+title: Place each type-level annotation on its own line
+text: >-
+  Place annotations that apply to a class, package, module, method or constructor on their
+  own line immediately after the documentation block; a single parameterless annotation
+  may sit on the first line of the signature, and type-use annotations sit immediately
+  before the type.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Specific Constructs — Annotations"

@@ -1,0 +1,12 @@
+uid: SR-0015
+type: system_requirement
+status: approved
+title: Always brace if, else, for, do and while
+text: >-
+  Use braces with if, else, for, do and while statements, even when the body is empty or
+  contains only a single statement.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Braces and Blocks — Use of Optional Braces"

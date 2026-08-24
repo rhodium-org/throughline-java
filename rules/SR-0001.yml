@@ -1,0 +1,12 @@
+uid: SR-0001
+type: system_requirement
+status: approved
+title: Name the file after its top-level class
+text: >-
+  Name a source file after the case-sensitive name of the top-level class it contains,
+  plus the .java extension.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Source File Basics — File Name"

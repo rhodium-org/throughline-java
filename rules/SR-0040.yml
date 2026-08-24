@@ -1,0 +1,13 @@
+uid: SR-0040
+type: system_requirement
+status: approved
+title: Name constants in UPPER_SNAKE_CASE
+text: >-
+  Name constants — static final fields that are deeply immutable and whose methods have no
+  detectable side effects — in UPPER_SNAKE_CASE with words separated by single
+  underscores.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Naming — Constant Names"

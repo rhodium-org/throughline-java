@@ -1,0 +1,12 @@
+uid: SR-0004
+type: system_requirement
+status: approved
+title: Use special escape sequences over numeric escapes
+text: >-
+  For any character that has a special escape sequence (\b, \t, \n, \f, \r, \s, \", \' and
+  \\), use that sequence rather than the corresponding octal or Unicode escape.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Source File Basics — Special Escape Sequences"

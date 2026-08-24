@@ -1,0 +1,13 @@
+uid: SR-0044
+type: system_requirement
+status: approved
+title: Name type variables in one of the two accepted styles
+text: >-
+  Name a type variable either as a single capital letter optionally followed by a numeral
+  (such as E, T, X or T2), or as a class-style name followed by a capital T (such as
+  RequestT).
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Naming — Type Variable Names"

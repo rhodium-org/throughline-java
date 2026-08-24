@@ -1,0 +1,11 @@
+uid: UR-0008
+type: user_requirement
+status: approved
+title: Javadoc
+text: >-
+  Rules governing the formatting, summary and placement of Javadoc.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Java Style Guide: Javadoc"

@@ -1,0 +1,12 @@
+uid: SR-0026
+type: system_requirement
+status: approved
+title: Add grouping parentheses unless there is no ambiguity
+text: >-
+  Omit optional grouping parentheses only when the author and reviewer agree there is no
+  reasonable chance the code will be misread; use them to aid clarity otherwise.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Whitespace and Wrapping — Grouping Parentheses"

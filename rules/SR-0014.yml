@@ -1,0 +1,12 @@
+uid: SR-0014
+type: system_requirement
+status: approved
+title: Keep overloaded methods in one contiguous group
+text: >-
+  Keep methods that share the same name in a single contiguous group with no other members
+  between them.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Source File Structure — Overloads Never Split"

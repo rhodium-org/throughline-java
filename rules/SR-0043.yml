@@ -1,0 +1,12 @@
+uid: SR-0043
+type: system_requirement
+status: approved
+title: Name local variables in lowerCamelCase, never as constants
+text: >-
+  Name local variables in lowerCamelCase; even when final and immutable a local variable
+  is not a constant and must not be styled as one.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Naming — Local Variable Names"

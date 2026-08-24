@@ -1,0 +1,13 @@
+uid: SR-0023
+type: system_requirement
+status: approved
+title: Separate class members with a single blank line
+text: >-
+  Use a single blank line between consecutive members or initializers of a class; blank
+  lines between fields are optional, and blank lines may organize logically related
+  statements.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Whitespace and Wrapping — Vertical Whitespace"

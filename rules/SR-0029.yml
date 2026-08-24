@@ -1,0 +1,12 @@
+uid: SR-0029
+type: system_requirement
+status: approved
+title: Put array brackets on the type, not the variable
+text: >-
+  Write the square brackets of an array as part of the type, not the variable: String[]
+  args, not String args[].
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Specific Constructs — Array Declarations"

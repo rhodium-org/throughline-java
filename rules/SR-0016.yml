@@ -1,0 +1,14 @@
+uid: SR-0016
+type: system_requirement
+status: approved
+title: Format nonempty blocks in K&R style
+text: >-
+  Format a nonempty block in Kernighan and Ritchie style: no line break before the opening
+  brace, a line break after it, a line break before the closing brace, and a line break
+  after the closing brace only if it terminates a statement or a method, constructor or
+  class body.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Braces and Blocks — Nonempty Blocks"

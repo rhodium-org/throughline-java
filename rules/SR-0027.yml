@@ -1,0 +1,13 @@
+uid: SR-0027
+type: system_requirement
+status: approved
+title: Format an enum class like other classes
+text: >-
+  Format an enum class following the rules for other classes; line breaks after the commas
+  between constants are optional, and an enum with no methods or documentation on its
+  constants may be formatted like an array initializer.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Google Java Style Guide: Formatting — Specific Constructs — Enum Classes"
