@@ -1,11 +1,12 @@
 uid: UR-0003
 type: user_requirement
-status: approved
+status: proposed
 title: Formatting — Braces and Blocks
-text: >-
-  Rules governing braces, block indentation, statements per line and the column limit.
+text: Rules governing braces, block indentation, statements per line and the column
+  limit.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Google Java Style Guide: Formatting — Braces and Blocks"
+  source_ref: 'Google Java Style Guide: Formatting — Braces and Blocks'

@@ -1,14 +1,15 @@
 uid: SR-0024
 type: system_requirement
-status: approved
+status: proposed
 title: Use single ASCII spaces for horizontal separation
-text: >-
-  Use a single ASCII space after a keyword before a parenthesis, before an opening brace,
-  around binary and ternary operators, after a comma, semicolon or the closing parenthesis
-  of a cast, on both sides of a double-slash comment, and between a type and its
-  identifier.
+text: Use a single ASCII space after a keyword before a parenthesis, before an opening
+  brace, around binary and ternary operators, after a comma, semicolon or the closing
+  parenthesis of a cast, on both sides of a double-slash comment, and between a type
+  and its identifier.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "Google Java Style Guide: Formatting — Whitespace and Wrapping — Horizontal Whitespace"
+  source_ref: 'Google Java Style Guide: Formatting — Whitespace and Wrapping — Horizontal
+    Whitespace'

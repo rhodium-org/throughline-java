@@ -1,13 +1,13 @@
 uid: SR-0046
 type: system_requirement
-status: approved
+status: proposed
 title: Mark every legal override with @Override
-text: >-
-  Mark a method with the @Override annotation whenever it is legal to do so, including
-  interface implementations and record accessors; omit it only when the overridden parent
-  method is @Deprecated.
+text: Mark a method with the @Override annotation whenever it is legal to do so,
+  including interface implementations and record accessors; omit it only when the
+  overridden parent method is @Deprecated.
+normative: true
 links:
 - target: UR-0007
   type: implements
 attrs:
-  source_ref: "Google Java Style Guide: Programming Practices — @Override"
+  source_ref: 'Google Java Style Guide: Programming Practices — @Override'

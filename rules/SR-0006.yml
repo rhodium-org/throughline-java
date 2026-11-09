@@ -1,12 +1,12 @@
 uid: SR-0006
 type: system_requirement
-status: approved
+status: proposed
 title: Put license or copyright information first
-text: >-
-  If license or copyright information belongs in a file, place it at the very start of the
-  file.
+text: If license or copyright information belongs in a file, place it at the very
+  start of the file.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "Google Java Style Guide: Source File Structure — License or Copyright"
+  source_ref: 'Google Java Style Guide: Source File Structure — License or Copyright'

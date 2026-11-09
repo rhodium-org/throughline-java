@@ -1,12 +1,13 @@
 uid: SR-0047
 type: system_requirement
-status: approved
+status: proposed
 title: Never silently ignore a caught exception
-text: >-
-  Do not ignore a caught exception; respond to it, and when taking no action is genuinely
-  correct explain why in a comment (a caught exception in a test may be named expected).
+text: Do not ignore a caught exception; respond to it, and when taking no action
+  is genuinely correct explain why in a comment (a caught exception in a test may
+  be named expected).
+normative: true
 links:
 - target: UR-0007
   type: implements
 attrs:
-  source_ref: "Google Java Style Guide: Programming Practices — Caught Exceptions"
+  source_ref: 'Google Java Style Guide: Programming Practices — Caught Exceptions'

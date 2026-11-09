@@ -1,11 +1,11 @@
 uid: SR-0008
 type: system_requirement
-status: approved
+status: proposed
 title: Never use wildcard imports
-text: >-
-  Do not use wildcard (on-demand) imports, whether static or otherwise.
+text: Do not use wildcard (on-demand) imports, whether static or otherwise.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "Google Java Style Guide: Source File Structure — No Wildcard Imports"
+  source_ref: 'Google Java Style Guide: Source File Structure — No Wildcard Imports'

@@ -1,11 +1,13 @@
 uid: SR-0011
 type: system_requirement
-status: approved
+status: proposed
 title: Import static nested classes with normal imports
-text: >-
-  Do not use a static import for a static nested class; import it with a normal import.
+text: Do not use a static import for a static nested class; import it with a normal
+  import.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "Google Java Style Guide: Source File Structure — No Static Import for Nested Classes"
+  source_ref: 'Google Java Style Guide: Source File Structure — No Static Import
+    for Nested Classes'
